@@ -16,9 +16,9 @@ public class VariableTutorial {
         // hangSo = 50; // Lỗi: không thể thay đổi
     }
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // Biến cục bộ
-        @SuppressWarnings("unused")
         String bienCucBo = "Đây là biến cục bộ";
     }
 }
